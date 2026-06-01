@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Developer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+ 
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursor-follower"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">Mustafa<span>.</span>Ali</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#testimonials">Clients</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Available for freelance work</div>
+    <h1 class="hero-name">
+      Full Stack<br>
+      <span class="line2">Web <span class="accent-word">Developer</span></span>
+    </h1>
+    <p class="hero-desc">
+      Building fast, scalable, and visually stunning web experiences. From pixel-perfect frontends to robust backend systems — I craft digital products that perform.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-ghost">Let's Talk</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">4<span>+</span></div>
+      <div class="stat-label">Years Exp.</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">30<span>+</span></div>
+      <div class="stat-label">Projects</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">25<span>+</span></div>
+      <div class="stat-label">Clients</div>
+    </div>
+  </div>
+
+  <div class="scroll-line">
+    <span>Scroll</span>
+    <div class="scroll-line-bar"></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Skills & Tech</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal reveal-delay-1">
+      <span class="skill-icon">⚛️</span>
+      <div class="skill-name">React / Next.js</div>
+      <div class="skill-desc">Modern UI development with component-driven architecture and SSR/SSG.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="92"></div>
+        <span class="skill-pct">92%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <span class="skill-icon">🟢</span>
+      <div class="skill-name">Node.js / Express</div>
+      <div class="skill-desc">RESTful APIs, authentication systems, and scalable server architecture.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="88"></div>
+        <span class="skill-pct">88%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-3">
+      <span class="skill-icon">🍃</span>
+      <div class="skill-name">MongoDB </div>
+      <div class="skill-desc">Database design, query optimization, and schema architecture.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="82"></div>
+        <span class="skill-pct">82%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-3">
+      <span class="skill-icon">🍃</span>
+      <div class="skill-name">MySQL </div>
+      <div class="skill-desc">Database design, query optimization, and schema architecture.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="82"></div>
+        <span class="skill-pct">82%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-4">
+      <span class="skill-icon">🎨</span>
+      <div class="skill-name">CSS / Bootstrap</div>
+      <div class="skill-desc">Pixel-perfect, responsive, and animated UIs with modern CSS techniques.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="95"></div>
+        <span class="skill-pct">95%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-1">
+      <span class="skill-icon">☁️</span>
+      <div class="skill-name">AWS / Vercel</div>
+      <div class="skill-desc">Cloud deployments, CI/CD pipelines, and serverless functions.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="75"></div>
+        <span class="skill-pct">75%</span>
+      </div>
+    </div>
+    <div class="skill-card reveal reveal-delay-2">
+      <span class="skill-icon">🐙</span>
+      <div class="skill-name">Git / DevOps</div>
+      <div class="skill-desc">Version control, Docker containers, and collaborative workflows.</div>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="85"></div>
+        <span class="skill-pct">85%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card featured reveal">
+      <span class="project-num">001</span>
+      <div class="project-tag">SaaS Platform</div>
+      <div class="project-title">Aegis Certification</div>
+      <div class="project-desc">A full-featured project management SaaS with real-time collaboration, kanban boards, analytics, and team workspace management for remote teams.</div>
+      <div class="project-stack">
+        <span class="stack-tag">Html</span>
+        <span class="stack-tag">CSS</span>
+        <span class="stack-tag">MySQL</span>
+        <span class="stack-tag">Bootstrap</span>
+        <span class="stack-tag">JavaScript</span>
+      </div>
+      <div class="project-links">
+        <a href="https://aegis-in.com" class="proj-link">Live Demo <span class="arrow">↗</span></a>
+      </div>
+    </div>
+    <div class="project-card small reveal reveal-delay-2">
+      <span class="project-num">002</span>
+      <div class="project-tag">E-Commerce</div>
+      <div class="project-title">ShopX Store</div>
+      <div class="project-desc">Custom e-commerce platform with Stripe payments, inventory management, and admin dashboard.</div>
+      <div class="project-stack">
+        <span class="stack-tag">React</span>
+        <span class="stack-tag">Node.js</span>
+        <span class="stack-tag">Stripe</span>
+        <span class="stack-tag">MongoDB</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="proj-link">Live Demo <span class="arrow">↗</span></a>
+      </div>
+    </div>
+    <div class="project-card wide reveal">
+      <div>
+        <span class="project-num">003</span>
+        <div class="project-tag">Mobile App</div>
+        <div class="project-title">HealthTrack<br>Mobile App</div>
+        <div class="project-desc">Cross-platform React Native health tracking app with AI-powered insights, workout planning, and nutrition logging for 10,000+ daily active users.</div>
+        <div class="project-stack">
+          <span class="stack-tag">React Native</span>
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">OpenAI API</span>
+          <span class="stack-tag">Firebase</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="proj-link">App Store <span class="arrow">↗</span></a>
+          <a href="#" class="proj-link">Case Study <span class="arrow">↗</span></a>
+        </div>
+      </div>
+      <div class="project-visual">📱</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-header reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Client Reviews</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal reveal-delay-1">
+      <div class="quote-mark">"</div>
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-text">Alex delivered our e-commerce platform ahead of schedule and with exceptional quality. The attention to detail in both design and code was remarkable. Our conversion rate increased by 40% after launch.</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">SR</div>
+        <div>
+          <div class="author-name">Sarah Reynolds</div>
+          <div class="author-role">CEO, NovaMart</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-2">
+      <div class="quote-mark">"</div>
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-text">Outstanding developer. He understood our requirements perfectly and built a robust, scalable system. Communication was always clear and professional throughout the entire project.</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">MK</div>
+        <div>
+          <div class="author-name">Marcus King</div>
+          <div class="author-role">CTO, FinEdge Labs</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-3">
+      <div class="quote-mark">"</div>
+      <div class="stars">★★★★★</div>
+      <div class="testimonial-text">Hired Alex for our startup's MVP — he not only wrote great code but also gave valuable product advice. The final product exceeded our expectations and helped us raise our seed round.</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">JP</div>
+        <div>
+          <div class="author-name">Jasmine Park</div>
+          <div class="author-role">Founder, Lumio AI</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-wrapper reveal">
+    <div class="contact-info">
+      <div class="contact-headline">Let's Build Something Great Together</div>
+      <div class="contact-sub">
+        Have a project in mind? I'm available for freelance work and full-time opportunities. Let's discuss how I can help bring your ideas to life.
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">📧</div>
+        <div>
+          <div class="contact-detail-label">Email</div>
+          <div class="contact-detail-val">professionalskill45@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">📱</div>
+        <div>
+          <div class="contact-detail-label">Phone</div>
+          <div class="contact-detail-val">+92 329-6409109</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-detail-label">Location</div>
+          <div class="contact-detail-val">Multan, Pakistan</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">⏰</div>
+        <div>
+          <div class="contact-detail-label">Response Time</div>
+          <div class="contact-detail-val">Within 24 hours</div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link" title="GitHub">GH</a>
+        <a href="#" class="social-link" title="LinkedIn">in</a>
+        <a href="#" class="social-link" title="Twitter">𝕏</a>
+        <a href="#" class="social-link" title="Upwork">Up</a>
+      </div>
+    </div>
+    <div class="contact-form-wrap">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-input" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-input" placeholder="last">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-input" placeholder="email@gmail.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Project Type</label>
+        <input type="text" class="form-input" placeholder="e.g. E-commerce, Landing Page">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Budget Range</label>
+        <input type="text" class="form-input" placeholder="e.g. $1,000 - $5,000">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-textarea" placeholder="Tell me about your project..."></textarea>
+      </div>
+      <button class="submit-btn" onclick="handleSubmit(this)">Send Message →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2025 Alex<span>.</span>Khan — All rights reserved</div>
+  <a href="#home" class="footer-back">↑ Back to Top</a>
+</footer>
+
+<script>
+  // Custom cursor
+  const cursor = document.getElementById('cursor');
+  const follower = document.getElementById('cursor-follower');
+  let mouseX = 0, mouseY = 0, followerX = 0, followerY = 0;
+
+  document.addEventListener('mousemove', e => {
+    mouseX = e.clientX; mouseY = e.clientY;
+    cursor.style.transform = `translate(${mouseX - 6}px, ${mouseY - 6}px)`;
+  });
+
+  function animateFollower() {
+    followerX += (mouseX - followerX - 18) * 0.12;
+    followerY += (mouseY - followerY - 18) * 0.12;
+    follower.style.transform = `translate(${followerX}px, ${followerY}px)`;
+    requestAnimationFrame(animateFollower);
+  }
+  animateFollower();
+
+  document.querySelectorAll('a, button, input, textarea').forEach(el => {
+    el.addEventListener('mouseenter', () => { cursor.style.transform += ' scale(2)'; });
+    el.addEventListener('mouseleave', () => { cursor.style.transform = cursor.style.transform.replace(' scale(2)', ''); });
+  });
+
+  // Nav scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Intersection observer for reveal animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Animate skill bars
+        entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+          bar.style.width = bar.dataset.width + '%';
+        });
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Also observe skill cards for bar animation
+  document.querySelectorAll('.skill-card').forEach(el => observer.observe(el));
+
+  // Form submit
+  function handleSubmit(btn) {
+    btn.textContent = 'Sending...';
+    btn.style.opacity = '0.7';
+    setTimeout(() => {
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = '#00c896';
+      btn.style.opacity = '1';
+      document.querySelectorAll('.form-input, .form-textarea').forEach(i => i.value = '');
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+      }, 3000);
+    }, 1500);
+  }
+
+  // Smooth scrolling
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
